@@ -1,20 +1,20 @@
 **XYZ Bank - Playwright Typescript Automation Framework**
 
-**Project Overview**
+**Project Overview:**
 This project has automated UI tests for the XYZ Bank Application using Playwright with Typescript.
 Framework follows the Page Object Model (POM) design pattern to ensure maintainability and clear separation between test logic and UI interaction.
 
-**Setup Instructions**
+**Setup Instructions:**
 Clone Repository
 Install Node
 Run npm install
 
-**Cross-Browser Support**
+**Cross-Browser Support:**
 Chromium
 Firefox
 Webkit
 
-**How to Run Tests**
+**How to Run Tests:**
 Run all tests - npx playwright test
 Run specific suite -
 npx playwright test tests/createCustomer.spec.ts
@@ -25,5 +25,5 @@ Run specific browser - npx playwright test --project=chromium --headed
 Headed mode - npx playwright test --headed
 UI mode - npx playwright test --ui
 
-**Reporting**
+**Reporting:**
 npx playwright show-report
